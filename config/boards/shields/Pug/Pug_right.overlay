@@ -1,4 +1,4 @@
-#include "Nova.dtsi"
+#include "Pug.dtsi"
 
 &default_transform { 
     col-offset = <6>;

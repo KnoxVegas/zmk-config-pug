@@ -1,14 +1,14 @@
-if SHIELD_NOVA_LEFT
+if SHIELD_PUG_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Nova"
+    default "Pug"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_NOVA_LEFT || SHIELD_NOVA_RIGHT
+if SHIELD_PUG_LEFT || SHIELD_PUG_RIGHT
 
 config ZMK_SPLIT
     default y

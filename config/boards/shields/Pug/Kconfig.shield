@@ -1,0 +1,5 @@
+config SHIELD_PUG_LEFT
+    def_bool $(shields_list_contains,Pug_left)
+
+config SHIELD_PUG_RIGHT
+    def_bool $(shields_list_contains,Pug_right)
